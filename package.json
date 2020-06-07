@@ -7,7 +7,7 @@
     "build": "tsc",
     "build+watch": "tsc -w",
     "start-web": "webpack-dev-server",
-    "prepack": "tsc"
+    "postinstall": "tsc"
   },
   "repository": {
     "type": "git",
