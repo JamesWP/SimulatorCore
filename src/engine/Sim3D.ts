@@ -51,9 +51,9 @@ export class Sim3D {
         gridHelper.scale.addScalar(10);
         scene.add(gridHelper);
         
-        // Axis
-        const axisHelper = new THREE.AxisHelper(1);
-        scene.add(axisHelper);
+        // Axes
+        const axesHelper = new THREE.AxesHelper(1);
+        scene.add(axesHelper);
     }
 
     onresize() {
